@@ -1,0 +1,21 @@
+.place__paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 26px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .place__paragraph {
+    row-gap: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .place__paragraph {
+    row-gap: 25px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}

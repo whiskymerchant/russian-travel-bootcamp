@@ -1,0 +1,16 @@
+.header {
+  margin: 28px 48px 48px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 1184px;
+  color: currentColor;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin: 28px 24px 48px 24px;
+  }
+}

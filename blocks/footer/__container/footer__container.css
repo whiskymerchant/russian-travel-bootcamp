@@ -1,0 +1,17 @@
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(5, min-content) 1fr;
+  height: 18px;
+  justify-items: start;
+  column-gap: 18px;
+}
+
+@media (max-width: 600px) {
+  .footer__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6 auto);
+    row-gap: 32px;
+  }
+}
+

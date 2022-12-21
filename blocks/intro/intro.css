@@ -1,0 +1,14 @@
+.intro {
+  margin-bottom: 92px;
+  max-width: 690px;
+  align-self: left;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+
+}
+
+@media (max-width:1024px) {
+  .intro {
+    max-width: 690px;
+  }
+  
+}

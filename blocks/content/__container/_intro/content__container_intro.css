@@ -1,0 +1,22 @@
+.content__container_intro {
+  margin-left: 100px;
+}
+
+@media (max-width:1024px) {
+  .content__container_intro {
+    margin-left: 48px;
+  }
+}
+
+@media (max-width:768px) {
+  .content__container_intro {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width:320px) {
+  .content__container_intro {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

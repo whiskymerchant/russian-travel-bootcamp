@@ -1,0 +1,38 @@
+.place {
+  margin: 0 auto 92px auto;
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  column-gap: 40px;
+  row-gap: 48px;
+  max-width: 984px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+
+}
+
+@media (max-width: 1024px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    column-gap: 32px;
+    max-width: 928px;
+  }  
+}
+
+@media (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    column-gap: 28px;
+    max-width: 720px;
+  }  
+}
+
+@media (max-width: 500px) {
+  .place {
+    grid-template-columns: 1fr;
+  }  
+}
+
+@media (max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr;
+  }  
+}
