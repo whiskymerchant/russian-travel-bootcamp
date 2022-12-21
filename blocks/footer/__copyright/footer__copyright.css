@@ -1,6 +1,6 @@
 .footer__copyright {
   margin: 0;
-  justify-self: end;  
+  justify-self: end;
   text-decoration: none;
   color: white;
   font-style: normal;
@@ -12,7 +12,7 @@
 
 @media (max-width: 600px) {
   .footer__copyright {
-    justify-self: start;  
+    justify-self: start;
     line-height: 14px;
   }
 }
