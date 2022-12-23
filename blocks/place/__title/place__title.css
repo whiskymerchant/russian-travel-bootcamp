@@ -13,16 +13,15 @@
   }
 }
 
-@media (max-width: 320px) {
-  .place__title {
-    font-size: 32px;
-    line-height: 35px;
-  }
-}
-
 @media (max-width: 500px) {
   .place__title {
     margin-left: 16px;
   }
 }
 
+@media (max-width: 320px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

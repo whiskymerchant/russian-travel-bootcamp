@@ -2,13 +2,14 @@
   text-decoration: none;
   color: #fff;
   max-width: 560px;
-  margin: 0;
-  margin-bottom: 32px;
+  margin: 0 0 32px 0;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   text-align: center;
+  z-index: 2;
+  position: relative;
 }
 
 
@@ -18,10 +19,12 @@
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 320px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
+    max-width: 288px;
+    margin-bottom: 16px;
     max-width: 288px;
   }
 }

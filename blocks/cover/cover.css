@@ -2,3 +2,10 @@
   font-family: "Inter", Arial, Helvetica, sans-serif;
   margin-bottom: 92px;
 }
+
+@media (max-width: 400px) {
+  .cover {
+    margin-bottom: 64px;
+  }
+  
+}

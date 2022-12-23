@@ -3,3 +3,9 @@
   align-items:baseline;
   column-gap: 18px;
 }
+
+@media (max-width: 320px) {
+  .header__lang-container {
+    margin-bottom: 8px;
+  }
+}

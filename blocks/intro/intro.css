@@ -3,12 +3,24 @@
   max-width: 690px;
   align-self: left;
   font-family: "Inter", Arial, Helvetica, sans-serif;
-
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   .intro {
     max-width: 690px;
   }
-  
+}
+
+@media (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 400px) {
+  .intro {
+    max-width: 288px;
+    margin-bottom: 64px;
+  }
 }

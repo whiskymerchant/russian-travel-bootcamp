@@ -14,7 +14,6 @@
 
 @media (max-width: 400px) {
   .place__paragraph {
-    row-gap: 25px;
     margin-right: 16px;
     margin-left: 16px;
   }
