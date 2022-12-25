@@ -11,7 +11,8 @@
 
 @media (max-width: 1024px) {
   .header {
-    margin: 28px 24px 48px 24px;
+    margin: 28px 48px 48px 48px;
+    max-width: 928px;
   }
 }
 
