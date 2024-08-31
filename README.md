@@ -1,19 +1,16 @@
-# Путешествия по России
+#### The project is designed for those who can no longer afford to travel abroad but can still buy a train ticket.
+## The project uses the following technologies:
 
-## Проект написан для тех, кто уже не может позволит себе путешествий за границу, но еще может купить билет на поезд.
+HTML.
+CSS.
+Version control system GIT.
+IDE editor VS Code.
+BEM.
+Grid
+Plans for project improvement:
 
-В проекте использованы технологии:
-1. HTML.
-2. CSS.
-3. Система контроля версий GIT.
-4. IDE-редактор VS Code.
-5. БЭМ.
-6. Grid
+Refine the intervals between elements as specified in Figma using media queries.
+Figure out why the footer block has no bottom margin.
+I hope I'll have enough time during the holidays to work on this :)
 
-Планы по доработке проекта:
-проработать инервалы между заданными в Фигме при помощи медиа-выражений
-разобраться почему не ставится отступ в блоке footer снизу
-
-Надеюсь, что каникул мне на это хватит ) 
-
-А вот и сам [проект](https://whiskymerchant.github.io/russian-travel/)
+And here is the project
